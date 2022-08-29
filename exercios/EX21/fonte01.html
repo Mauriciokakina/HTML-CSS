@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+     <style>
+        @import url('https://fonts.googleapis.com/css2?family=work+Sans:ital,wght@0,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+
+        body{
+            font-family: 'work sans',  Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em ;
+          
+            /* lighter normal bold bolder*/
+        }
+
+        h1{
+            font-family: 'word sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            /* shorthand font 
+            - font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 3em 'work sans', sans-serif;
+        }
+
+        h2{
+            font: bold 2em 'word sans';
+        }
+     </style>
+</head>
+<body>
+    <h1>Trabalhnado com fontes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam excepturi laboriosam, consectetur, corrupti vel quas incidunt neque aperiam facilis, nobis nemo voluptas at? Incidunt nisi error dolores at vel eligendi!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum natus distinctio eligendi blanditiis exercitationem minus deserunt aspernatur odio asperiores voluptates, nobis quaerat harum tenetur soluta expedita molestias dolore aperiam et.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum adipisci ratione mollitia nesciunt sapiente eaque explicabo deleniti sed rerum, repellat numquam distinctio quo fuga obcaecati inventore aspernatur illum minima doloremque. </p>
+    
+</body>
+</html>
